@@ -3,40 +3,40 @@
 # Learn more: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 # Default owners for everything in the repo
-# Replace with actual GitHub usernames
-* @yourusername
+* @JB3141
 
 # Documentation
-/docs/ @yourusername
-*.md @yourusername
+/docs/ @JB3141
+*.md @JB3141
 
 # Integrations - Each integration should have a dedicated owner
-/src/integrations/slack/ @owner-slack
-/src/integrations/email/ @owner-email
-/src/integrations/calendar/ @owner-calendar
-/src/integrations/gdrive/ @owner-gdrive
-/src/integrations/hr/ @owner-hr
+# TODO: Update with your friend's GitHub username after they join
+/src/integrations/slack/ @JB3141
+/src/integrations/email/ @JB3141
+/src/integrations/calendar/ @JB3141
+/src/integrations/gdrive/ @JB3141
+/src/integrations/hr/ @JB3141
 
 # Core business logic - Shared ownership
-/src/core/ @yourusername
+/src/core/ @JB3141
 
 # AI/LLM layer
-/src/ai/ @owner-ai
+/src/ai/ @JB3141
 
 # API endpoints
-/src/api/ @owner-api
+/src/api/ @JB3141
 
 # Tests - Whoever touches code should review tests
-/tests/ @yourusername
+/tests/ @JB3141
 
 # CI/CD and infrastructure
-/.github/ @yourusername
-/.github/workflows/ @owner-devops
+/.github/ @JB3141
+/.github/workflows/ @JB3141
 
 # Configuration files
-package.json @yourusername
-tsconfig.json @yourusername
-.env.example @yourusername
+package.json @JB3141
+tsconfig.json @JB3141
+.env.example @JB3141
 
 # Database migrations
-/migrations/ @owner-database
+/migrations/ @JB3141
